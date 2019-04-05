@@ -31,19 +31,23 @@ html {
   border-bottom: .3rem solid #bea59b;
 }
 
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
 .nav a:hover span,
 .nav a:focus span {
   border-bottom-color: #fff;
-}
-
-.nav a:focus {
-  outline: 3px solid #fff;
 }
 
 .banner {
   min-height: 16em;
   color: #fff;
   background-color: #522806;
+}
+
+.banner-content a:focus {
+  outline-color: #fff;
 }
 
 .card {
